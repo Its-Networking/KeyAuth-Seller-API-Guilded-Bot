@@ -1,6 +1,9 @@
 # KeyAuth-Seller-API-Guilded-Bot
 This is a Guilded Bot made for the KeyAuth Seller API. It has every feature that is on https://keyauth.readme.io. 
 
+## IMPORTANT!
+Inside Guilded KeyAuth Seller Bot > Connection . You will see a config.json file. This is the same thing as the one located in Guilded KeyAuth Seller Bot > bin > Debug > net7.0 > config.json HOWEVER! The project targets the one in the BIN FOLDER! Not the one in the Connection folder. So if you update the one in the Connection folder, it won't actually work if you add/remove/change something. You will need to make sure you're only updating the one in the bin folder or both of them!
+
 ## How Do I Set It Up?
 1. Download the folder, this contains everything that you need. 
 2. Open Guiled KeyAuth Seller Bot > bin > Debug > net7.0 > config.json 
