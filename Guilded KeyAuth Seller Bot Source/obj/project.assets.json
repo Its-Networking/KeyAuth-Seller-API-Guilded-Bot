@@ -1,0 +1,564 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "Guilded/1.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Guilded.Connection": "1.1.3"
+        },
+        "compile": {
+          "lib/net6.0/Guilded.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Guilded.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Guilded.Base/1.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "RestSharp": "108.0.1",
+          "RestSharp.Serializers.NewtonsoftJson": "107.3.0",
+          "System.Reactive": "5.0.0",
+          "System.Reactive.Linq": "5.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Guilded.Base.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Guilded.Base.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Guilded.Connection/1.1.3": {
+        "type": "package",
+        "dependencies": {
+          "Guilded.Base": "1.1.0",
+          "Websocket.Client": "4.4.43"
+        },
+        "compile": {
+          "lib/net6.0/Guilded.Connection.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Guilded.Connection.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "RestSharp/108.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "RestSharp.Serializers.NewtonsoftJson/107.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.1",
+          "RestSharp": "107.3.0"
+        },
+        "compile": {
+          "lib/net6.0/RestSharp.Serializers.NewtonsoftJson.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/RestSharp.Serializers.NewtonsoftJson.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Spectre.Console/0.46.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.5"
+        },
+        "compile": {
+          "lib/net7.0/Spectre.Console.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Spectre.Console.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Memory/4.5.5": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.1/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "System.Reactive/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/System.Reactive.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/System.Reactive.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net5.0/_._": {}
+        }
+      },
+      "System.Reactive.Linq/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Reactive": "5.0.0",
+          "System.Threading.Tasks.Extensions": "4.5.4"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Reactive.Linq.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Reactive.Linq.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Threading.Channels/4.7.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/System.Threading.Channels.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.Threading.Channels.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.5.4": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.1/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "Websocket.Client/4.4.43": {
+        "type": "package",
+        "dependencies": {
+          "System.Reactive": "4.3.2",
+          "System.Threading.Channels": "4.7.0"
+        },
+        "compile": {
+          "lib/net6.0/Websocket.Client.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Websocket.Client.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Guilded/1.5.0": {
+      "sha512": "qCeNrwEvU4bNh7afrCVJdE775McJEOx1CkLNXFTI7Bkp84FCdm1kRt3zbGFCAv73yUMpAXsfHE2XZk0gBOKinw==",
+      "type": "package",
+      "path": "guilded/1.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "README.md",
+        "guilded.1.5.0.nupkg.sha512",
+        "guilded.nuspec",
+        "lib/net5.0/Guilded.dll",
+        "lib/net5.0/Guilded.xml",
+        "lib/net6.0/Guilded.dll",
+        "lib/net6.0/Guilded.xml"
+      ]
+    },
+    "Guilded.Base/1.1.0": {
+      "sha512": "cUsqwakEYe7ZSrRmmxVAu1NHMU2dOg2/IK+D4flu4SW9l2Sqab16ucRdnJ0fE5EqcxXswJ6iV70cKPwTLl506g==",
+      "type": "package",
+      "path": "guilded.base/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "README.md",
+        "guilded.base.1.1.0.nupkg.sha512",
+        "guilded.base.nuspec",
+        "lib/net5.0/Guilded.Base.dll",
+        "lib/net5.0/Guilded.Base.xml",
+        "lib/net6.0/Guilded.Base.dll",
+        "lib/net6.0/Guilded.Base.xml"
+      ]
+    },
+    "Guilded.Connection/1.1.3": {
+      "sha512": "bDO7BzCe3zByd0JCAcEaokxQ27D09DS4e0QO0Knpv8hI+Sm5v3JzT02xxuRYt1qAyy6/HW5wY2xreJJqyxE0eQ==",
+      "type": "package",
+      "path": "guilded.connection/1.1.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "README.md",
+        "guilded.connection.1.1.3.nupkg.sha512",
+        "guilded.connection.nuspec",
+        "lib/net5.0/Guilded.Connection.dll",
+        "lib/net5.0/Guilded.Connection.xml",
+        "lib/net6.0/Guilded.Connection.dll",
+        "lib/net6.0/Guilded.Connection.xml"
+      ]
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "sha512": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/net6.0/Newtonsoft.Json.dll",
+        "lib/net6.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "RestSharp/108.0.1": {
+      "sha512": "XKwuwWq7A4dxZ8l9QkS2+ePLJ9ImmLaJSeFO6H2kpII4Us4n1NRs4w3c//8H2BYpL1XqBE8nmsd9aNCVBwXmOA==",
+      "type": "package",
+      "path": "restsharp/108.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net5.0/RestSharp.dll",
+        "lib/net5.0/RestSharp.xml",
+        "lib/net6.0/RestSharp.dll",
+        "lib/net6.0/RestSharp.xml",
+        "lib/netstandard2.0/RestSharp.dll",
+        "lib/netstandard2.0/RestSharp.xml",
+        "restsharp.108.0.1.nupkg.sha512",
+        "restsharp.nuspec",
+        "restsharp.png"
+      ]
+    },
+    "RestSharp.Serializers.NewtonsoftJson/107.3.0": {
+      "sha512": "+AS2UA2LYWSkRnp+knYyS7tyuWqkpEL32HgYdb8Ope4fppB1nX6/LixoGJhPb7maOIIFPX18Q1ggq5scmqTeQg==",
+      "type": "package",
+      "path": "restsharp.serializers.newtonsoftjson/107.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net5.0/RestSharp.Serializers.NewtonsoftJson.dll",
+        "lib/net5.0/RestSharp.Serializers.NewtonsoftJson.xml",
+        "lib/net6.0/RestSharp.Serializers.NewtonsoftJson.dll",
+        "lib/net6.0/RestSharp.Serializers.NewtonsoftJson.xml",
+        "lib/netstandard2.0/RestSharp.Serializers.NewtonsoftJson.dll",
+        "lib/netstandard2.0/RestSharp.Serializers.NewtonsoftJson.xml",
+        "restsharp.png",
+        "restsharp.serializers.newtonsoftjson.107.3.0.nupkg.sha512",
+        "restsharp.serializers.newtonsoftjson.nuspec"
+      ]
+    },
+    "Spectre.Console/0.46.0": {
+      "sha512": "qd2OMEGxfQW1KLuQj56KKHkIK6eB/IUF/AET5CRl/efROHGsvBehx9shfkL0HgJEHLCwRiR7foWi4/LkdPk18g==",
+      "type": "package",
+      "path": "spectre.console/0.46.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/Spectre.Console.dll",
+        "lib/net6.0/Spectre.Console.xml",
+        "lib/net7.0/Spectre.Console.dll",
+        "lib/net7.0/Spectre.Console.xml",
+        "lib/netstandard2.0/Spectre.Console.dll",
+        "lib/netstandard2.0/Spectre.Console.xml",
+        "small-logo.png",
+        "spectre.console.0.46.0.nupkg.sha512",
+        "spectre.console.nuspec"
+      ]
+    },
+    "System.Memory/4.5.5": {
+      "sha512": "XIWiDvKPXaTveaB7HVganDlOCRoj03l+jrwNvcge/t8vhGYKvqV+dMv6G4SAX2NoNmN0wZfVPTAlFwZcZvVOUw==",
+      "type": "package",
+      "path": "system.memory/4.5.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Memory.dll",
+        "lib/net461/System.Memory.xml",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.1/System.Memory.dll",
+        "lib/netstandard1.1/System.Memory.xml",
+        "lib/netstandard2.0/System.Memory.dll",
+        "lib/netstandard2.0/System.Memory.xml",
+        "ref/netcoreapp2.1/_._",
+        "system.memory.4.5.5.nupkg.sha512",
+        "system.memory.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Reactive/5.0.0": {
+      "sha512": "erBZjkQHWL9jpasCE/0qKAryzVBJFxGHVBAvgRN1bzM0q2s1S4oYREEEL0Vb+1kA/6BKb5FjUZMp5VXmy+gzkQ==",
+      "type": "package",
+      "path": "system.reactive/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net5.0/_._",
+        "build/netcoreapp3.1/System.Reactive.dll",
+        "build/netcoreapp3.1/System.Reactive.targets",
+        "build/netcoreapp3.1/System.Reactive.xml",
+        "buildTransitive/net5.0/_._",
+        "buildTransitive/netcoreapp3.1/System.Reactive.targets",
+        "lib/net472/System.Reactive.dll",
+        "lib/net472/System.Reactive.xml",
+        "lib/net5.0-windows10.0.19041/System.Reactive.dll",
+        "lib/net5.0-windows10.0.19041/System.Reactive.xml",
+        "lib/net5.0/System.Reactive.dll",
+        "lib/net5.0/System.Reactive.xml",
+        "lib/netcoreapp3.1/_._",
+        "lib/netstandard2.0/System.Reactive.dll",
+        "lib/netstandard2.0/System.Reactive.xml",
+        "lib/uap10.0.16299/System.Reactive.dll",
+        "lib/uap10.0.16299/System.Reactive.pri",
+        "lib/uap10.0.16299/System.Reactive.xml",
+        "system.reactive.5.0.0.nupkg.sha512",
+        "system.reactive.nuspec"
+      ]
+    },
+    "System.Reactive.Linq/5.0.0": {
+      "sha512": "IB4/qlV4T1WhZvM11RVoFUSZXPow9VWVeQ1uDkSKgz6bAO+gCf65H/vjrYlwyXmojSSxvfHndF9qdH43P/IuAw==",
+      "type": "package",
+      "path": "system.reactive.linq/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net472/System.Reactive.Linq.dll",
+        "lib/net472/System.Reactive.Linq.xml",
+        "lib/netstandard2.0/System.Reactive.Linq.dll",
+        "lib/netstandard2.0/System.Reactive.Linq.xml",
+        "lib/uap10.0.16299/System.Reactive.Linq.dll",
+        "lib/uap10.0.16299/System.Reactive.Linq.pri",
+        "lib/uap10.0.16299/System.Reactive.Linq.xml",
+        "system.reactive.linq.5.0.0.nupkg.sha512",
+        "system.reactive.linq.nuspec"
+      ]
+    },
+    "System.Threading.Channels/4.7.0": {
+      "sha512": "gdOOXBhtt2UpTxYJm1DRmoqNfYg5ypvhzhVt0vxKhzxXFjS81r8yIOSFsJYLRa1Jc14GBAqCnjxJstO3zBN7gg==",
+      "type": "package",
+      "path": "system.threading.channels/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp3.0/System.Threading.Channels.dll",
+        "lib/netcoreapp3.0/System.Threading.Channels.xml",
+        "lib/netstandard1.3/System.Threading.Channels.dll",
+        "lib/netstandard1.3/System.Threading.Channels.xml",
+        "lib/netstandard2.0/System.Threading.Channels.dll",
+        "lib/netstandard2.0/System.Threading.Channels.xml",
+        "system.threading.channels.4.7.0.nupkg.sha512",
+        "system.threading.channels.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Threading.Tasks.Extensions/4.5.4": {
+      "sha512": "zteT+G8xuGu6mS+mzDzYXbzS7rd3K6Fjb9RiZlYlJPam2/hU7JCBZBVEcywNuR+oZ1ncTvc/cq0faRr3P01OVg==",
+      "type": "package",
+      "path": "system.threading.tasks.extensions/4.5.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.Threading.Tasks.Extensions.dll",
+        "lib/net461/System.Threading.Tasks.Extensions.xml",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.0/System.Threading.Tasks.Extensions.dll",
+        "lib/netstandard1.0/System.Threading.Tasks.Extensions.xml",
+        "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll",
+        "lib/netstandard2.0/System.Threading.Tasks.Extensions.xml",
+        "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.dll",
+        "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/netcoreapp2.1/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.threading.tasks.extensions.4.5.4.nupkg.sha512",
+        "system.threading.tasks.extensions.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Websocket.Client/4.4.43": {
+      "sha512": "h0sS4zsnXrVkYyMYDaRc0k/oV54uXXBlN/HOHAK5d/RWleLTmWS6bxtt0l3D5Q2rgtfLinkHLdf4sOqdrxZ0NA==",
+      "type": "package",
+      "path": "websocket.client/4.4.43",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net5.0/Websocket.Client.dll",
+        "lib/net5.0/Websocket.Client.xml",
+        "lib/net6.0/Websocket.Client.dll",
+        "lib/net6.0/Websocket.Client.xml",
+        "lib/netstandard2.0/Websocket.Client.dll",
+        "lib/netstandard2.0/Websocket.Client.xml",
+        "lib/netstandard2.1/Websocket.Client.dll",
+        "lib/netstandard2.1/Websocket.Client.xml",
+        "websocket.client.4.4.43.nupkg.sha512",
+        "websocket.client.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "Guilded >= 1.5.0",
+      "Newtonsoft.Json >= 13.0.3",
+      "Spectre.Console >= 0.46.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\exodu\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\exodu\\source\\repos\\Guilded KeyAuth Seller Bot\\Guilded KeyAuth Seller Bot\\Guilded KeyAuth Seller Bot.csproj",
+      "projectName": "Guilded KeyAuth Seller Bot",
+      "projectPath": "C:\\Users\\exodu\\source\\repos\\Guilded KeyAuth Seller Bot\\Guilded KeyAuth Seller Bot\\Guilded KeyAuth Seller Bot.csproj",
+      "packagesPath": "C:\\Users\\exodu\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\exodu\\source\\repos\\Guilded KeyAuth Seller Bot\\Guilded KeyAuth Seller Bot\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\exodu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "Guilded": {
+            "target": "Package",
+            "version": "[1.5.0, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.3, )"
+          },
+          "Spectre.Console": {
+            "target": "Package",
+            "version": "[0.46.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

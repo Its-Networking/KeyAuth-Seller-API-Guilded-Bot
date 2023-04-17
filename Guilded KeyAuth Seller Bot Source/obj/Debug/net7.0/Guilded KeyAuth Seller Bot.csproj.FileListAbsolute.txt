@@ -1,0 +1,26 @@
+C:\Users\exodu\source\repos\Guilded KeyAuth Seller Bot\Guilded KeyAuth Seller Bot\obj\Debug\net7.0\Guilded KeyAuth Seller Bot.csproj.AssemblyReference.cache
+C:\Users\exodu\source\repos\Guilded KeyAuth Seller Bot\Guilded KeyAuth Seller Bot\obj\Debug\net7.0\Guilded KeyAuth Seller Bot.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\exodu\source\repos\Guilded KeyAuth Seller Bot\Guilded KeyAuth Seller Bot\obj\Debug\net7.0\Guilded KeyAuth Seller Bot.AssemblyInfoInputs.cache
+C:\Users\exodu\source\repos\Guilded KeyAuth Seller Bot\Guilded KeyAuth Seller Bot\obj\Debug\net7.0\Guilded KeyAuth Seller Bot.AssemblyInfo.cs
+C:\Users\exodu\source\repos\Guilded KeyAuth Seller Bot\Guilded KeyAuth Seller Bot\obj\Debug\net7.0\Guilded KeyAuth Seller Bot.csproj.CoreCompileInputs.cache
+C:\Users\exodu\source\repos\Guilded KeyAuth Seller Bot\Guilded KeyAuth Seller Bot\bin\Debug\net7.0\Guilded KeyAuth Seller Bot.exe
+C:\Users\exodu\source\repos\Guilded KeyAuth Seller Bot\Guilded KeyAuth Seller Bot\bin\Debug\net7.0\Guilded KeyAuth Seller Bot.deps.json
+C:\Users\exodu\source\repos\Guilded KeyAuth Seller Bot\Guilded KeyAuth Seller Bot\bin\Debug\net7.0\Guilded KeyAuth Seller Bot.runtimeconfig.json
+C:\Users\exodu\source\repos\Guilded KeyAuth Seller Bot\Guilded KeyAuth Seller Bot\bin\Debug\net7.0\Guilded KeyAuth Seller Bot.dll
+C:\Users\exodu\source\repos\Guilded KeyAuth Seller Bot\Guilded KeyAuth Seller Bot\bin\Debug\net7.0\Guilded KeyAuth Seller Bot.pdb
+C:\Users\exodu\source\repos\Guilded KeyAuth Seller Bot\Guilded KeyAuth Seller Bot\bin\Debug\net7.0\Guilded.dll
+C:\Users\exodu\source\repos\Guilded KeyAuth Seller Bot\Guilded KeyAuth Seller Bot\bin\Debug\net7.0\Guilded.Base.dll
+C:\Users\exodu\source\repos\Guilded KeyAuth Seller Bot\Guilded KeyAuth Seller Bot\bin\Debug\net7.0\Guilded.Connection.dll
+C:\Users\exodu\source\repos\Guilded KeyAuth Seller Bot\Guilded KeyAuth Seller Bot\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\exodu\source\repos\Guilded KeyAuth Seller Bot\Guilded KeyAuth Seller Bot\bin\Debug\net7.0\RestSharp.dll
+C:\Users\exodu\source\repos\Guilded KeyAuth Seller Bot\Guilded KeyAuth Seller Bot\bin\Debug\net7.0\RestSharp.Serializers.NewtonsoftJson.dll
+C:\Users\exodu\source\repos\Guilded KeyAuth Seller Bot\Guilded KeyAuth Seller Bot\bin\Debug\net7.0\Spectre.Console.dll
+C:\Users\exodu\source\repos\Guilded KeyAuth Seller Bot\Guilded KeyAuth Seller Bot\bin\Debug\net7.0\System.Reactive.dll
+C:\Users\exodu\source\repos\Guilded KeyAuth Seller Bot\Guilded KeyAuth Seller Bot\bin\Debug\net7.0\System.Reactive.Linq.dll
+C:\Users\exodu\source\repos\Guilded KeyAuth Seller Bot\Guilded KeyAuth Seller Bot\bin\Debug\net7.0\Websocket.Client.dll
+C:\Users\exodu\source\repos\Guilded KeyAuth Seller Bot\Guilded KeyAuth Seller Bot\obj\Debug\net7.0\Guilded KeyAuth Seller Bot.csproj.CopyComplete
+C:\Users\exodu\source\repos\Guilded KeyAuth Seller Bot\Guilded KeyAuth Seller Bot\obj\Debug\net7.0\Guilded KeyAuth Seller Bot.dll
+C:\Users\exodu\source\repos\Guilded KeyAuth Seller Bot\Guilded KeyAuth Seller Bot\obj\Debug\net7.0\refint\Guilded KeyAuth Seller Bot.dll
+C:\Users\exodu\source\repos\Guilded KeyAuth Seller Bot\Guilded KeyAuth Seller Bot\obj\Debug\net7.0\Guilded KeyAuth Seller Bot.pdb
+C:\Users\exodu\source\repos\Guilded KeyAuth Seller Bot\Guilded KeyAuth Seller Bot\obj\Debug\net7.0\Guilded KeyAuth Seller Bot.genruntimeconfig.cache
+C:\Users\exodu\source\repos\Guilded KeyAuth Seller Bot\Guilded KeyAuth Seller Bot\obj\Debug\net7.0\ref\Guilded KeyAuth Seller Bot.dll

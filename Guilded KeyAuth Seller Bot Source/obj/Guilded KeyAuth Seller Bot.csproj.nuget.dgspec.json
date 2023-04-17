@@ -1,0 +1,77 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\exodu\\source\\repos\\Guilded KeyAuth Seller Bot\\Guilded KeyAuth Seller Bot\\Guilded KeyAuth Seller Bot.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\exodu\\source\\repos\\Guilded KeyAuth Seller Bot\\Guilded KeyAuth Seller Bot\\Guilded KeyAuth Seller Bot.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\exodu\\source\\repos\\Guilded KeyAuth Seller Bot\\Guilded KeyAuth Seller Bot\\Guilded KeyAuth Seller Bot.csproj",
+        "projectName": "Guilded KeyAuth Seller Bot",
+        "projectPath": "C:\\Users\\exodu\\source\\repos\\Guilded KeyAuth Seller Bot\\Guilded KeyAuth Seller Bot\\Guilded KeyAuth Seller Bot.csproj",
+        "packagesPath": "C:\\Users\\exodu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\exodu\\source\\repos\\Guilded KeyAuth Seller Bot\\Guilded KeyAuth Seller Bot\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\exodu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Guilded": {
+              "target": "Package",
+              "version": "[1.5.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Spectre.Console": {
+              "target": "Package",
+              "version": "[0.46.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
